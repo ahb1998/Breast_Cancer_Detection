@@ -3,6 +3,8 @@ Created on Wed Nov 11 10:45:10 2020
 # -*- coding: utf-8 -*-
 @author: AHB_1998
 @Project Name:  Breast Cancer Pathology with DeepLearning (PYHTON)
+some explanations in Farsi(Persian)!
+if you stock in some methods >>>>>>>> google it!
 """
 
 
@@ -28,11 +30,11 @@ from keras.callbacks import ModelCheckpoint, LearningRateScheduler, EarlyStoppin
 
 # 2. Define Train & Test Path (Images + Mask Path for Train and Test Stages)
 
-TRAIN_IMAGE_PATH = 'C:/Users/AHB_1998/Desktop/uni/T9/PRJCT/py-code/Dataset/Inputs_Train/'
-TRAIN_MASK_PATH = 'C:/Users/AHB_1998/Desktop/uni/T9/PRJCT/py-code/Dataset/Masks_Train/'
+TRAIN_IMAGE_PATH = '.../Dataset/Inputs_Train/'
+TRAIN_MASK_PATH = '.../Masks_Train/'
 
-TEST_IMGAE_PATH = 'C:/Users/AHB_1998/Desktop/uni/T9/PRJCT/py-code/Dataset/Inputs_Test/'
-TEST_MASK_PATH = 'C:/Users/AHB_1998/Desktop/uni/T9/PRJCT/py-code/Dataset/Masks_Test/'
+TEST_IMGAE_PATH = '.../Inputs_Test/'
+TEST_MASK_PATH = '.../Masks_Test/'
 
 
 # 3. Initialize Images and Mask Size
@@ -89,7 +91,7 @@ def Data_Proprocessing_Train():
                mode = 'constant',
                anti_aliasing=True,
                preserve_range=True)
-        #arguman : "1":dune dune begir "2":output>size pix tarifi 
+        #arguman(Farsi-explained) : "1":dune dune begir "2":output>size pix tarifi 
         #"3": preserve_range : agar True bashe ,pix resize shude meqdar hash ru hefz mikone
         #agar False bashe momayezi mikone(yani az -1 ta 1 mishan)
         #ye option dg ham hast be name "anti_aliasing" : vaqti pix ru down scale mikoni , baraye inke labe 
