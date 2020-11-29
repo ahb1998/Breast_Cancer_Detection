@@ -9,3 +9,16 @@ The UNET was developed by Olaf Ronneberger et al.
 I used breast tissue pictures from https://portal.gdc.cancer.gov/  
 It is about 58 pictures. I used 56 for training and 2 for testing my model.
 All of the pictures had Mask layer(picture) that showed the cancer cells.
+
+
+## How it works?
+1- data entry: pictures path included.  
+2- Preprocessing datas includes cropping ,...  
+3-showing results in Preprocessing stage  
+4-Implementation of U_NET Model for Semantic Segmentation  
+5-Define U_NET Model Evaluator (Intersection Over Union _ IOU)  
+6-Show The Results per Epoch  
+7-Train U_NET Model using Training Samples  
+8-U_NET Model Evaluation using Test Samples  
+9-Show Final Results (Segmented Images)  
+10-Show Loss and IOU Plots  
