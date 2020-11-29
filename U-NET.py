@@ -4,7 +4,7 @@ Created on Wed Nov 11 10:45:10 2020
 @author: AHB_1998
 @Project Name:  Breast Cancer Pathology with DeepLearning (PYHTON)
 some explanations in Farsi(Persian)!
-if you stock in some methods >>>>>>>> google it!
+if you dont know some methods >>>>>>>> google it like I did, google explained it better than me!
 """
 
 
